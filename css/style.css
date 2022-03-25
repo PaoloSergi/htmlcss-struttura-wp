@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole main */
+main{
+    width: 80%;
+    margin: 25px auto;
+
+    /* debug */
+    /* height: 1000px; */
+    /* width: 80vw; */
+
+    /* fine debug */
+}
+
+
+/* fine regole main */
+
+/* regole header */
+
+header{
+    width: 100%;
+    margin-bottom: 35px;
+
+    /* debug */
+    background-color: palevioletred;
+    height: 100px;
+
+    /* fine debug */
+}
+
+
+/* fine regole header */
+
+
+
+/* regole .slideShow */
+
+section.slideShow{
+    width: 100%;
+    margin-bottom: 35px;
+
+    /* debug */
+    background-color:rgb(204, 186, 87);
+    height: 500px;
+
+    /* fine debug */
+}
+
+
+
+/* fine regole .slideShow */
+
+
+/* regole .contents */
+
+section.contents{
+    width: 100%;
+    margin-bottom: 10px;
+
+    /* debug */
+    background-color:blue;
+    height: 700px;
+
+    /* fine debug */
+}
+
+.contents>*{
+
+    /* debug */
+    background-color:dodgerblue;
+
+    /* fine debug */
+
+}
+
+.contents::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contents>.header{
+    margin-bottom: 20px;
+
+    /* debug */
+    height: 60px;
+
+    /* fine debug */
+}
+
+.contents>aside{
+    margin-bottom: 15px;
+    float: left;
+
+    /* debug */
+    height: 605px;
+    width: 20%;
+
+    /* fine debug */
+}
+
+.contents>.center{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+
+    /* debug */
+    height: 605px;
+    width: calc(60% - 30px);
+
+    /* fine debug */
+}
+
+
+/* fine regole .contents */
+
+
+/* regole footer */
+
+footer{
+    width: 100%;
+    margin-bottom: 35px;
+
+    /* debug */
+    background-color: blueviolet;
+    height: 40px;
+
+    /* fine debug */
+}
+
+/* fine regole footer */
