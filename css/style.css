@@ -27,7 +27,7 @@ header{
 
     /* debug */
     background-color: palevioletred;
-    height: 100px;
+    height: 130px;
 
     /* fine debug */
 }
@@ -60,10 +60,11 @@ section.slideShow{
 section.contents{
     width: 100%;
     margin-bottom: 10px;
+    padding-bottom: 20px;
 
     /* debug */
-    background-color:blue;
-    height: 700px;
+    background-color:rgb(87, 87, 255);
+    /* height: 700px; */
 
     /* fine debug */
 }
@@ -71,7 +72,7 @@ section.contents{
 .contents>*{
 
     /* debug */
-    background-color:dodgerblue;
+    background-color:rgb(157, 206, 255);
 
     /* fine debug */
 
@@ -84,7 +85,7 @@ section.contents{
 }
 
 .contents>.header{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 
     /* debug */
     height: 60px;
@@ -93,25 +94,23 @@ section.contents{
 }
 
 .contents>aside{
-    margin-bottom: 15px;
     float: left;
 
     /* debug */
-    height: 605px;
+    height: 600px;
     width: 20%;
 
     /* fine debug */
 }
 
 .contents>.center{
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
     float: left;
 
     /* debug */
-    height: 605px;
-    width: calc(60% - 30px);
+    height: 600px;
+    width: calc(60% - 40px);
 
     /* fine debug */
 }
@@ -128,7 +127,7 @@ footer{
 
     /* debug */
     background-color: blueviolet;
-    height: 40px;
+    height: 60px;
 
     /* fine debug */
 }
