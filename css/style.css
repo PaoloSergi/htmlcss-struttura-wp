@@ -21,7 +21,7 @@
 
 /* regole main>header */
 
-main>header{
+header.page{
     width: 100%;
     margin-bottom: 35px;
 
@@ -84,7 +84,7 @@ main::after{
     clear: both;
 }
 
-main>header{
+header.contents{
     margin-bottom: 25px;
 
     /* debug */
