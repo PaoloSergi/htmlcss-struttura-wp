@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-/* regole main */
-main{
+/* regole .container */
+.container{
     width: 80%;
     margin: 25px auto;
 
@@ -17,11 +17,11 @@ main{
 }
 
 
-/* fine regole main */
+/* fine regole .container */
 
-/* regole header */
+/* regole main>header */
 
-header{
+main>header{
     width: 100%;
     margin-bottom: 35px;
 
@@ -33,13 +33,13 @@ header{
 }
 
 
-/* fine regole header */
+/* fine regole main>header */
 
 
 
-/* regole .slideShow */
+/* regole hero */
 
-section.slideShow{
+section.hero{
     width: 100%;
     margin-bottom: 35px;
 
@@ -52,12 +52,12 @@ section.slideShow{
 
 
 
-/* fine regole .slideShow */
+/* fine regole hero */
 
 
-/* regole .contents */
+/* regole main */
 
-section.contents{
+main{
     width: 100%;
     margin-bottom: 10px;
     padding-bottom: 20px;
@@ -69,7 +69,7 @@ section.contents{
     /* fine debug */
 }
 
-.contents>*{
+main>*{
 
     /* debug */
     background-color:rgb(157, 206, 255);
@@ -78,13 +78,13 @@ section.contents{
 
 }
 
-.contents::after{
+main::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.contents>.header{
+main>header{
     margin-bottom: 25px;
 
     /* debug */
@@ -93,7 +93,7 @@ section.contents{
     /* fine debug */
 }
 
-.contents>aside{
+main>aside{
     float: left;
 
     /* debug */
@@ -103,7 +103,7 @@ section.contents{
     /* fine debug */
 }
 
-.contents>.center{
+main>.center{
     margin-left: 20px;
     margin-right: 20px;
     float: left;
@@ -116,7 +116,7 @@ section.contents{
 }
 
 
-/* fine regole .contents */
+/* fine regole main */
 
 
 /* regole footer */
